@@ -6,7 +6,7 @@ import requests
 '''
 名称：安全教育学习无人值守脚本（2022.12.1之前仍能正常使用）
 
-作者：bufbrane && Silence
+作者：Silence
 
 开发环境：
     系统版本：Windows10 64-bit
@@ -16,8 +16,9 @@ import requests
 
 注意事项：
 
-1. 在电子科技大学2015级本科生前辈的脚本（https://github.com/bufbrane/safety_study.git）基础上修改，由于之前模拟登录函数（ExamLogin）除了只能通过账号信息获取cookie，现在实验室安全教育考试系统
+1. 在电子科技大学2015级本科生前辈的脚本（https://github.com/bufbrane/safety_study.git）基础上修改，由于之前模拟登录函数（ExamLogin）只能通过账号信息获取cookie，现在实验室安全教育考试系统
 添加了验证码验证，较难实现模拟登录，故直接使用cookie的方式发送post请求
+
 2. 本脚本需要安装requests库和json库，使用pip命令安装：
 # pip install requests 
 # pip install json
